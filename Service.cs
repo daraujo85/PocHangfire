@@ -26,6 +26,7 @@ public static class Service
     catch (Exception ex)
     {
       Console.WriteLine(ex.Message);
+      throw;
     }
 
   }
